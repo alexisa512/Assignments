@@ -1,0 +1,21 @@
+h {
+    font-family: 'Times New Roman', Times, serif
+}
+h1 { 
+    text-align: center
+}
+
+h3 {
+    padding: 20px
+}
+
+.for-sale p{
+    border: solid;
+    border-color: black;
+    width: 250px;
+    height: 150px;
+    display: inline-block;
+    
+
+}
+
