@@ -1,0 +1,1 @@
+This is an exercise from V School where I had to write a function that takes an array of numbers and returns the largest without using Math.max().

@@ -1,0 +1,1 @@
+This is an exercise from V School where I had to practice various functions and their math abilities.

@@ -1,0 +1,1 @@
+This is an exercise from V School where I had to use several css selectors to restyle elements of the page.

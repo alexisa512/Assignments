@@ -1,0 +1,2 @@
+This is an exercise from V School where I had to practice string methods.
+

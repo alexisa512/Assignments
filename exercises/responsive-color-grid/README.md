@@ -1,0 +1,1 @@
+This is an exercise from V School where I had to create a responsive color grid using CSS media queries.

@@ -1,0 +1,1 @@
+This is a project from V School where I had to create a static webpage.

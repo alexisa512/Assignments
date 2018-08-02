@@ -1,0 +1,1 @@
+This is an exercise from V School where I had to create a collection of employee's information for a company using constructor functions.

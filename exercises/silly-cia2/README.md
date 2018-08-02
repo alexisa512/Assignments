@@ -1,0 +1,1 @@
+This is an exercise from V School where I had to style the HTML article from Silly CIA 1 using CSS.

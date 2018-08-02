@@ -1,0 +1,1 @@
+This is a warm up from V School where I had to remove any duplicate letters from a given string and add them to another string called "duplicates".

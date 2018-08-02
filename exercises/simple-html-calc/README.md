@@ -1,0 +1,1 @@
+This is an exercise from V School where I had to create a simple calculator that can add, subtract, and multiply.

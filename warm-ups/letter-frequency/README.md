@@ -1,0 +1,1 @@
+This is a warm up from V School where I had to find the frequency of all the letters in a given word or phrase, and print them to the console.

@@ -1,0 +1,1 @@
+This is an exercise from V School where I had to create a model to represent the database of a new social media platform using nested data and methods.

@@ -1,0 +1,1 @@
+This is an exercise from V School where I had to use the terminal with node, npm, and your text editor. 

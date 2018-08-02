@@ -1,0 +1,1 @@
+This is an exercise from V School where I had to build a website from scratch that displays a "Hello World!" in a first-level header element and create an unordered list of jokes.

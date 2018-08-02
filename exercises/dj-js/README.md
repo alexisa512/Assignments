@@ -1,0 +1,1 @@
+This is an exercise from V School where I had to create a website where people can change the color of a square on the page by interacting with different HTML Events.

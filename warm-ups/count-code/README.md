@@ -1,0 +1,1 @@
+This is a warm up from V School where I had to write a function that returns the number of times that the string "code" appears anywhere in the given string.

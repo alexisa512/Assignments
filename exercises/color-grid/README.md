@@ -1,0 +1,1 @@
+This is an exercise from V School where without using the bootstrap grid system, I had to create a website with a color grid.
