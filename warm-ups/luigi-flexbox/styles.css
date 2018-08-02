@@ -1,0 +1,27 @@
+@font-face {
+    font-family: superMario256;
+    src: url("SuperMario256.ttf")
+}
+
+
+
+
+.container {
+    display: flex;
+    font-family: superMario256;
+
+}
+
+.aboutMe {
+    flex-direction: column;
+}
+
+h1 {
+    background-color: yellow;
+    align-items: center;
+    height: 60px;
+
+
+
+
+}

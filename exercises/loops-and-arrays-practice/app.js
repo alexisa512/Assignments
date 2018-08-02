@@ -1,15 +1,15 @@
 // // Loop through the following array and count how many "computers" there are. 
 // // Log the final count:
 
-// var officeItems = ["stapler", "monitor", "computer", "desk", "lamp", "computer", "lamp", "stapler", "computer",  "computer"] 
-// var comps = 0
+var officeItems = ["stapler", "monitor", "computer", "desk", "lamp", "computer", "lamp", "stapler", "computer",  "computer"] 
+var comps = 0
 
-// for (i = 0; i < officeItems.length; i++) {
-//     if (officeItems[i] === "computer") {
-//         comps++
-//     }
-// }
-// console.log(comps)
+for (i = 0; i < officeItems.length; i++) {
+    if (officeItems[i] === "computer") {
+        comps++
+    }
+}
+console.log(comps)
 
 // Loop through the following array and log to the 
 // console "old enough" if they are 18 or older, 
@@ -46,3 +46,19 @@ var peopleWhoWantToSeeMadMaxFuryRoad = [
         console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is not old enough to see Mad Max.")
     }
 }
+
+// Optional Bonus challenge
+// Imagine you have a button that toggles a light on and off. Loop through the following array of numbers and toggle the button the numbers of times for each number. The array [2, 3, 2] would toggle the button 7 times.
+// The light is off to start with. Log to the console whether or not the light is on at the end.
+
+var arr = [2, 5, 435, 4, 3]
+var number = 0
+for (i = 0; i < arr.length; i++) {
+   number = number + arr[i]
+}
+console.log(number)
+  if (number % 2 === 0) {
+    console.log("Off")
+  } else {
+    console.log("On")
+  }

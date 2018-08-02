@@ -1,0 +1,147 @@
+@font-face {
+    font-family: UpperEastSide;
+    src: url(UpperEastSide.ttf)
+}
+body {
+    background-image: url(Zinc.jpg);
+
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: UpperEastSide;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 75px;
+    background-image: url(Salt\ City\ Stomp\ Header.jpg);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: black;
+}
+
+a {
+    display: flex;
+    color: rgb(192, 3, 3);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: UpperEastSide;
+    font-size: 60px;
+    font-weight: bolder;
+    color: black
+}
+
+h3 {
+    text-align: center;
+    font-family: UpperEastSide;
+    font-weight: bold;
+    font-size: 25px
+}
+
+#clubhouse {
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+main {
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 23px;
+    /* margin-right: 50px; */
+    margin: 0px 50px 20px;
+}
+
+#logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.basicInfo {
+    display:flex;
+    width: 30%;
+    flex-direction: column;
+    line-height: 29px;
+    /* margin: 20px 20px; */
+    font-family: Arial;
+    padding-left: 20px;
+
+}
+
+#button {
+    /* margin: -10px 20px 0px ; */
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px black solid;
+    background-color: gray;
+    width: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input {
+    display: inline-flex;
+    align-content: flex-end;
+    margin-left: 5px; 
+    float: right;
+}
+.lead {
+    float: none;
+}
+
+select {
+    /* display: inline-flex; */
+    /* align-content: flex-end; */
+    /* margin-left: 5px;  */
+    float: right;
+    margin-right: 80px;
+}
+
+#requiredField {
+    font-family: Arial;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+#threeDimensional {
+    width: 30%;
+    margin: 20px;
+    border: 10px black double;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    border-top: 3px;
+    margin-top: 40px;
+    font-family: Arial;
+}
+
+@media only screen and (max-width: 500px) {
+    nav {
+        font-size: 25px;
+        height: 38px;
+    }
+
+    #clubhouse {
+        margin-bottom: -5px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    nav {
+        font-size: 40px;
+        height: 90px;
+    }
+}
+

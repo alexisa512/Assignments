@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>V School Travel</h1>
+    <div>
+        <form name="travelInfo">
+        <div>
+                First Name<input type="text" name="firstname" required>
+                Last Name<input type="text" name="lastname" required>
+                <input type="number" name="age" placeholder="Age" required>
+        </div>  
+
+        <div>
+                Male <input type="radio" value="male" name="gender"> 
+                Female <input type="radio" value="female" name="gender">
+        </div>
+
+        <div>
+                <select name="travelDestination">
+                    <option value="Paris">Paris</option>
+                    <option value="London">London</option>
+                    <option value="Athens">Athens</option>
+                    <option value="Madrid">Madrid</option>
+                    </select>
+        </div>
+
+        <div>
+                    <input type="checkbox" value="vegetarian" name="diet"> Vegetarian <br>
+                    <input type="checkbox" value="kosher" name="diet"> Kosher<br>
+                    <input type="checkbox" value="gluten-free" name="diet"> Gluten-free<br>
+                    <input type="checkbox" value="lactose-free" name="diet"> Lactose-free<br>
+                    <input type="checkbox" value="other" name="diet"> Other<br>
+                    <input type="checkbox" value="other" name="diet"> None<br>
+           
+        </div>
+
+    <button>Submit</button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
