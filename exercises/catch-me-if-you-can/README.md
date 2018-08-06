@@ -1,0 +1,1 @@
+This is an exercise for V School where I had to practice throwing errors.

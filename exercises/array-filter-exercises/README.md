@@ -1,0 +1,1 @@
+This is an exercise from V School where I practiced the higher order .filter method.

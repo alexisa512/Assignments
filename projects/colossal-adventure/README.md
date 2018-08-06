@@ -1,0 +1,1 @@
+This is a project for V School where we had to create a role playing game to play in the console.
