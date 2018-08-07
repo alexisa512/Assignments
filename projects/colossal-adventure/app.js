@@ -1,9 +1,9 @@
 var ask = require('readline-sync')
 
-var userName = ask.question("Welcome to 'The Game!' What is your name? ")
-    console.log(`Hi, ${userName}! Let's get playing! `)
+var userName = ask.question("Welcome to 'The Game!' What is thy name? ")
+    console.log(`Greetings, ${userName}! The area is under attack from fiendish foes! They are destorying the villages and driving the peasants from their cottages! Thine job is to defeat all the foes thou cometh across before they can lay waste to all the land! Thou and thine opponent wilt both receive damage in battle. May the best man or monster win! `)
 // Declaration Section
-var hp = 80
+var hp = 60
 var enemies= [
     {name: "Dragon", health: 15},
     {name: "Dagron", health: 20},
@@ -12,13 +12,13 @@ var enemies= [
 var input = ""
 var battleOptions = ["Fight", "Run away"]
 var inventory = []
-var items = ["flask", "sword", "shield", "gold star", "Hello Kitty backpack"]
+var items = ["flask", "sword", "shield", "gold star", "Hello Kitty backpack", "cake", "dinglehopper"]
 var endGame = false
 
 
 // The Game
 while(hp > 0 && !endGame){
-    input = ask.question("Press 'w' to walk. Enter 'print' to see stats. Enter 'exit' quit.")
+    input = ask.question("\nPress 'w' to walk. \nEnter 'print' to see stats. \nEnter 'exit' to quit. \n")
     if (input === 'w'){
         walk()
     }
@@ -32,21 +32,27 @@ while(hp > 0 && !endGame){
 
 // Functions
 function walk(){
-    if(Math.random() <= 0.33){
+    if(Math.random() <= 0.5){
         fight()
+        // console.log('\x1Bc')
+    } else if (Math.random() <= 0.66){
+        console.log("\nThou walkest through a meadow and decide to take a nap.")
+    } else if (Math.random() <= 0.83){
+        console.log("\nThou goes for a walk past a deserted village. ")
     } else {
-        console.log('\x1Bc')
-        console.log("You go for a nice, uneventful walk. ")
+        console.log("\nThou walkest up a mountain and find some old ruins.")
     }
 }
+
 
 function fight(){
     var enemy = getEnemy() 
     var active = true
-    console.log(`${enemy.name} appeared.`)
+    console.log('\x1Bc')
+    console.log(`\n${enemy.name} appeared.`)
     while(hp > 0 && enemy.health > 0 && active){
-        console.log(`Your health: ${hp}  ${enemy.name}'s health: ${enemy.health}`)
-        var userChoice = ask.keyInSelect(battleOptions, "What do you do?")
+        console.log(`Thine health: ${hp}  \n${enemy.name}'s health: ${enemy.health}`)
+        var userChoice = ask.keyInSelect(battleOptions, "What dost thou do?")
         console.log('\x1Bc')
         switch(userChoice){
             case 0:
@@ -57,28 +63,26 @@ function fight(){
             case 1:
                 console.log('Run ya sniveling coward!')
                 if(Math.random > .5){
-                    console.log("You got away safely. ")
+                    console.log("Thou got away safely. ")
                     active = false
                 } else {
-                    console.log(`You failed to get away and ${enemy.name} delivered damage.`)
+                    console.log(`Thou hast failed to get away and ${enemy.name} delivered damage.`)
                     hp -= attackPower()
                 }
         }
-        if (enemy.health <= 0){
+        if(enemy.health <= 0){
             hp += 10
-            if(enemy.health < 0){
-                enemy.health = 0
-            }
+            enemy.health = 0
             console.log("Thou hast vanquished thine foe! As a reward, thou hast received 10 health points.") 
-            console.log(`Your health: ${hp}  ${enemy.name}'s health: ${enemy.health}`)
-            if (enemy.name === "Trogdor the Burninator") {
-                inventory.push("thatched roof cottage repair kit")
-                console.log("You have received a thatched roof cottage repair kit.")
-            } else {
-                var received = getItem()
-                inventory.push(received)
-                console.log(`Thou hast received a ${received}.`)
-            }
+            console.log(`Thine health: ${hp}  ${enemy.name}'s health: ${enemy.health}`)
+                if (enemy.name === "Trogdor the Burninator") {
+                    inventory.push("thatched roof cottage repair kit")
+                    console.log("Thou hast received a thatched roof cottage repair kit.")
+                } else {
+                    var received = getItem()
+                    inventory.push(received)
+                    console.log(`Thou hast received a ${received}.`)
+                }
 
             var enemiesLeft = false
             enemies.forEach(function(foe){
@@ -97,6 +101,7 @@ function fight(){
         }
     }
 }
+
 
 function getEnemy(){
     var num = Math.floor(Math.random() * enemies.length)
