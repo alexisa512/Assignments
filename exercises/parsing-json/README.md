@@ -1,0 +1,1 @@
+This is an exercise for V School where we learnedto use XMLHttpRequest.

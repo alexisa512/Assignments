@@ -1,0 +1,1 @@
+An exercise from V School where I had to practice using array methods.

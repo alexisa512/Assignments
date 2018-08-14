@@ -1,0 +1,45 @@
+.strikethrough {
+    text-decoration: line-through;
+}
+
+body {
+    background-color: gray;
+}
+
+.todoItem {
+    border: 2px black solid;
+    margin-top: 10 px; 
+    margin-bottom: 15px;
+    width: 25%;
+    text-align: center;
+    padding-bottom: 15px; 
+    background-color: whitesmoke;
+    line-height: 5px;
+}
+
+button {
+    margin-top: 5px;
+}
+
+#container {
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+form {
+    padding-bottom: 15px;
+    padding-top: 10px;
+
+}
+
+input {
+    height: 20px;
+    margin: 5px;
+}
+
+img {
+    height: 75px;
+    width: 100px;
+}
+

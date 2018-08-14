@@ -1,0 +1,128 @@
+Your menu JSON should consist of multiple properties, each one an array, represent the array of options available for:
+appetizers
+cold sandwiches
+hot sandwiches
+desserts
+drinks
+
+Each item in each array should be an object consisting of 3 properties:
+name of the item/sandwich
+an array of strings representing the ingredients
+a string description.
+
+You must have at least 2 items (objects) on each submenu (appetizers, cold sands, hot sands, desserts, and drinks)
+
+{
+    "appetizers": [
+        {
+            "name": "chips and salsa",
+            "ingredients": [
+                    "house made corn tortilla chips",
+                    "house salsa"
+            ], 
+            "description": "made in house corn tortilla chips with house salsa",
+        },
+        
+        {
+            "name": "twice baked potatoes",
+            "ingredients": [
+                "baked potatoes",
+                "cheese",
+                "sour cream",
+                "chives",
+            ],
+            "description": "mashed potatoes stores in their skins mixed and baked again",
+        }
+    ],
+
+    "cold sandwiches": [
+        {
+            "name": "muffuletta",
+            "ingredients": [
+                    "turkey",
+                    "ham",
+                    "salami",
+                    "olives spread"
+            ], 
+            "description": "a popular sandwich originating among Italian immigrants in New Orleans, Louisiana",
+        },
+        
+        {
+            "name": "BLT",
+            "ingredients": [
+                "bacon",
+                "lettuce",
+                "tomato",
+                "mayo",
+            ],
+            "description": "bacon, lettuce, and tomato on Italian bread",
+        }
+    ],
+
+    "hot sandwiches": [
+        {
+            "name": "meatball marinara",
+            "ingredients": [
+                    "meatballs",
+                    "marinara sauce",
+                    "mozzerella cheese",
+                    "italian seasoning"
+            ], 
+            "description": "warm meatballs on a sub with house made marinara sauce",
+        },
+        
+        {
+            "name": "toasted PB&J",
+            "ingredients": [
+                "peanut butter",
+                "jelly",
+            ],
+            "description": "PB&J toasted.",
+        }
+    ],
+
+    "desserts": [
+        {
+            "name": "oatmeal raisin cookies",
+            "ingredients": [
+                    "oatmeal",
+                    "raisins",
+            ], 
+            "description": "If you need a description, your life is just sad",
+        },
+        
+        {
+            "name": "cheesecake",
+            "ingredients": [
+                "cream cheese",
+                "Nilla Wafer crust",
+                "whipped cream",
+                "strawberries or raspberries",
+            ],
+            "description": "New york style cheesecake with your choice of berry topping",
+        }
+    ],
+
+    "drinks": [
+        {
+            "name": "lemonade",
+            "ingredients": [
+                    "fresh squeezed lemons",
+                    "sugar",
+                    "water",
+            ], 
+            "description": "Not for those who are H2O intolerant",
+        },
+        
+        {
+            "name": "Horchata",
+            "ingredients": [
+                "rice milk",
+                "cinnamon",
+                "pinch of love",
+            ],
+            "description": "Best drink ever!",
+        }
+    ],
+
+}
