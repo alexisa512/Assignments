@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "verdemoderna";
+    src: url(./verdemoderna.woff)
+}
+
+.leftSide {
+    margin-top: 48px;
+    line-height: 30px;
+    padding-right: 525px;
+    padding-left: 130px;
+}
+
+h3 {
+    font-family: "Julius Sans One";
+    font-size: 29px;
+    color: rgba(50, 80, 80);
+    font-weight: 55;
+    margin-bottom: 20px;
+}
+
+span {
+    font-family: 'verdemoderna';
+    background: #d9e1cd;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.link {
+    text-decoration: none;
+    color:rgb(59, 151, 182);
+}
+
+#htmlFile {
+    font-family: "Julius Sans One";
+    color:  rgba(135,156,113);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#htmlFile:hover, #cssFile:hover {
+    background-color: #08829A;
+    padding: 8px;
+    color: white;
+}
+
+
+#cssFile {
+    font-family: "Julius Sans One";
+    color:  rgba(135,156,113);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+p {
+    color: rgba(50, 80, 80);
+    font-family: "Georgia";
+    font-size: 18px;
+    font-weight: lighter;
+    word-spacing: 1.5px;
+}
+
+.greenBackground {
+    background-image: url(bamboo.png);
+    background-color: rgba(138,188,159, 0.5);
+    width: 100%;
+    position: relative;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    
+    
+}
+
+#whatIsThisAbout {
+    padding-bottom: 40px;
+}
+
+#requirements {
+    padding-top: 35px;
+    padding-bottom: 40px;
+
+}

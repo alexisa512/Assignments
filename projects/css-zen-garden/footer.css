@@ -1,0 +1,65 @@
+.footer {   
+    width: 100%;
+    height: 320px;
+    background-image: url("contours@2x.png"), url("noise.png"), url("gridlines.png"), url("koi.jpg");
+    background-size: 60% auto, auto, auto, cover;
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-position-y: 0%, 0%, 155%, 50%;
+    background-position-x: 0%, 0%, 600%, 0;
+    position: relative;
+    bottom: 0px;
+    top: 2660px;
+
+}
+
+#footerTop {
+    position: relative;
+    top: 110px;
+    line-height: 50px;
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    color:rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-size: 35px;
+}
+
+
+.footerLink {
+    font-family: "Georgia";
+    color: whitesmoke;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+.footerLink:hover {
+    text-decoration: underline;
+}
+
+#footerBottom {
+    background-color: #144347;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    top: 220px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+#symbols {
+    font-family: 'verdemoderna';
+    color: rgba(255, 255, 255, 0.6);
+       /* text-align: center; */
+    font-size: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 50px;
+    space
+
+}
+
+
+

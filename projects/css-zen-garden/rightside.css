@@ -1,0 +1,34 @@
+rightContent {
+    background-color: rgba(225, 238, 232);
+    height: 100%;
+    width: 33%
+    
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    /* color: rgba(255, 255, 255, 0.6); */
+    position: relative;
+    left: 900px;
+    line-height: 25px;
+    margin-top: 65px;
+    
+
+}
+
+.design {
+    font-family: "Julius Sans One";
+    color: rgba(50, 80, 80);
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.name {
+    font-family: "Georgia";
+    font-style: normal;
+    text-decoration: none;
+    color: rgba(50, 80, 80);
+}
