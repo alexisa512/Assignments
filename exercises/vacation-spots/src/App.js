@@ -9,7 +9,7 @@ const App = () => {
     },{
       place: "Cancun",
       price: 900,
-      timeToGo: "Winter"
+      timeToGo: "Winter" 
     },{
       place: "China",
       price: 1200,
@@ -25,15 +25,17 @@ const App = () => {
     }
   ]
 
-  const displaySpots = vacationSpots.map((vacationSpot, i) =>
+  const displaySpots = vacationSpots.map((vacationSpot, i) => {
     return <VacationSpot key={vacationSpot.place+1}
                          place={vacationSpot.place}
                          price={vacationSpot.price}
                          timeToGo={vacationSpot.timeToGo} />
+  })
+  return (
     <div>
-
+      {displaySpots}
     </div>
-  );
+  )
 }
 
 export default App;
