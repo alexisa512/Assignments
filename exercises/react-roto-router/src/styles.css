@@ -1,0 +1,20 @@
+*{
+    background-color: grey
+}
+
+Footer {
+    background-color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 26px;
+
+}
+
+.navbar {
+    background-color: indigo;
+    font-family: Arial;
+    font-size: 40px;
+    display: flex
+    
+
+}
