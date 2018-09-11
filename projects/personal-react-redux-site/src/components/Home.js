@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import { getJokes } from '../redux';
+import decode from 'unescape';
 
 class Home extends React.Component {
 	constructor(props) {
@@ -10,9 +11,9 @@ class Home extends React.Component {
 	}
 	render() {
 		return (
-			<div>
+			<div className='home'>
 				<button onClick={this.props.getJokes}>Get Another Joke</button>
-				{this.props.jokes}
+				<div id='joke'>{decode(this.props.jokes)}</div>
 			</div>
 		)
 	}

@@ -8,10 +8,10 @@ const initState = {
 
 export const getJokes = () => {
     return function(dispatch){
-        axios.get('https://api.chucknorris.io/jokes/random').then(response => {
+        axios.get('https://api.icndb.com/jokes/random').then(response => {
             dispatch({
                 type: "GET_JOKES",
-                data: response.data.value
+                data: response.data.value.joke
             })
         })
     }

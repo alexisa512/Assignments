@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Bio from './components/Bio';
 import Gallery from './components/Gallery';
+import './components/index.css'
 
 
 const App = props => {
