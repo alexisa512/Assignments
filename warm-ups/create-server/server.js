@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 const port = 4500;
+const uuid = require('uuid/v4')
 
 app.use(bodyParser.json());
 
@@ -9,22 +10,26 @@ const dancers = [
     {
         firstName: "Lexi",
         age: 31,
-        dance: "lindyhop"
+        dance: "lindyhop",
+        id: uuid()
     },
     {
         firstName: "Joseph",
         age: 28,
-        dance: "balboa"
+        dance: "balboa",
+        id: uuid()
     },
     {
         firstName: "Cordon",
         age: 28,
-        dance: "collegiate shag"
+        dance: "collegiate shag",
+        id: uuid()
     },
     {
         firstName: "Jessie",
         age: 30,
-        dance: "lindyhop"
+        dance: "lindyhop",
+        id: uuid()
     },
 
 ]
